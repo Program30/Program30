@@ -17,14 +17,14 @@ import random as rd
 
 print('This is a guess numbers game')
 print('Let's play it!')
-# number and number middle use space separation
+# number and number middle use space separation 
 a = input('Please input a guess number range') 
 a1 = split(' ')
 b = []
 for i in range(a1)：
     b.apppend(int(i))
 while True:
-    d = rd.choice(b[0], b[1]+1)
+    d = rd.randint(b[0], b[1]+1)
     e = input('Please input a your guess number')
     if int(e) == d:
         print('guess right!')
